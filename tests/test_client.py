@@ -32,11 +32,7 @@ import json
 
 from ovh.vendor import requests
 
-try:
-    from collections import OrderedDict
-except ImportError:
-    # Python 2.6
-    from ordereddict import OrderedDict
+from collections import OrderedDict
 
 from ovh.client import Client, ENDPOINTS
 from ovh.exceptions import (

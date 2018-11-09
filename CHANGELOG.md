@@ -1,6 +1,9 @@
 Changelog
 =========
 
+## (to be released)
+ - [deprecation] Remove support for Python 2.6 (#68)
+
 ## 0.4.8 (2017-09-15)
  - [feature] Add ResourceExpiredError exception (#48)
 
